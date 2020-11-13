@@ -36,9 +36,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【东东养猪】'
+      - name: '运行 【京东养猪】'
         run: |
-          node jd_pet.js
+          node jd_pigPet.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
